@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Vivero.unity
     guid: a3c58888588894745902ae1ee1bddd0a
+  - enabled: 1
+    path: Assets/Scenes/SalaPociones.unity
+    guid: 5f5c5b38171d07147bbe3dd47e2d4745
   m_configObjects: {}
