@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class Interacciones : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public SpriteRenderer spriteRenderer;
+    public int code;
     void Start()
     {
-        
+        this.spriteRenderer = GetComponent<SpriteRenderer>();
+        this.spriteRenderer.enabled = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    
+    void OnMouseOver()
+        {
+            this.spriteRenderer.enabled = true;
+           
+            if (Input.GetMouseButtonDown(0))
+            {
+
+            }
         
-    }
+
+        }
+        void OnMouseExit()
+        {
+            this.spriteRenderer.enabled = false;
+            
+        }
+    
 }
