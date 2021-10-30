@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: ab4450614ebe2cc448ae1bd8cf2d75be
+guid: dd4acc16bce27fd4f85990fac01bcb65
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3730371142785894116
-    second: idle bruja_0
-  - first:
-      213: -4710737695669083564
-    second: idle bruja_1
-  - first:
-      213: -675581879121796871
-    second: idle bruja_2
-  - first:
-      213: -316521602921897703
-    second: idle bruja_3
+      213: -8373557107704977980
+    second: pixil-frame-0_5_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -43,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -52,9 +43,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 14
@@ -111,85 +102,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle bruja_0
+      name: pixil-frame-0_5_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 27
-        width: 37
-        height: 72
+        x: 120
+        y: 7
+        width: 30
+        height: 61
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e60f1e3ac0f4c330800000000000000
-      internalID: 3730371142785894116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle bruja_1
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 27
-        width: 37
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4522a9b360910aeb0800000000000000
-      internalID: -4710737695669083564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle bruja_2
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 27
-        width: 37
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f0214e3cd9df96f0800000000000000
-      internalID: -675581879121796871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle bruja_3
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 27
-        width: 36
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9116a16774d7b9bf0800000000000000
-      internalID: -316521602921897703
+      spriteID: 4c52cc0fc262bcb80800000000000000
+      internalID: -8373557107704977980
       vertices: []
       indices: 
       edges: []
