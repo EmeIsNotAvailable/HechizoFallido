@@ -23,32 +23,52 @@ public class Dialog_Manager : MonoBehaviour
     void startDialogue()
     {
         sentences.Clear();
-        void DisplayNextSentence()
-        {
-            if (sentences.Count <= 0)
-            {
-                displayText.text = activeSentence;
-                return;
-            }
-            activeSentence = sentences.Dequeue();
-            Debug.Log(activeSentence);
-        }
+        
         foreach (string sentence in dialogo.sentenceList)
         {
             sentences.Enqueue(sentence);
         }
         DisplayNextSentence();
     }
-    private void OnTrigerEnter(Collider col)
+
+    void DisplayNextSentence()
     {
-        if (col.CompareTag("Player"))
+        if (sentences.Count <= 0)
         {
-            startDialogue();
+            displayText.text = activeSentence;
+            return;
         }
+        activeSentence = sentences.Dequeue();
+        Debug.Log(activeSentence);
     }
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        
-    }
+        if (col.gameObject.tag == "Player")
+        { 
+            startDialogue();
+            print("Chocasion");
+        }
+    } 
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            if (Input.GetKeyDown("space"))
+            {
+                DisplayNextSentence();
+                print("poia pero mejor");
+            }
+            print("poia");
+        }
+    }/*
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                DisplayNextSentence();
+            }
+        }
+    }*/
 }
