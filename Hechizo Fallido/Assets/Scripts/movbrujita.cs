@@ -22,5 +22,13 @@ public class movbrujita : MonoBehaviour
         else if (x != 0)
             transform.localScale = new Vector2(1, 1);
     }
-    
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Cosa")
+        {
+            Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
+        print("hemos chocao");
+
+    }
 }

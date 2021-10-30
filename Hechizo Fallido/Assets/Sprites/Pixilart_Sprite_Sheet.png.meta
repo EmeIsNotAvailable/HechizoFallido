@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: 616b0c0ae760a9f459a1ef6b846e7672
+guid: 0b38d1704d1bf0042a115dc91f3f4b3c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8506205076621947934
-    second: walking bruja_0
+      213: 7333318363430488555
+    second: Pixilart_Sprite_Sheet_0
   - first:
-      213: 4626706339331150948
-    second: walking bruja_1
+      213: 69607448489185725
+    second: Pixilart_Sprite_Sheet_1
   - first:
-      213: 6544950697018051899
-    second: walking bruja_2
+      213: 6121326756761690351
+    second: Pixilart_Sprite_Sheet_2
   - first:
-      213: 722072044118469435
-    second: walking bruja_3
+      213: -4115546635463210148
+    second: Pixilart_Sprite_Sheet_3
   - first:
-      213: -1747541931202333903
-    second: walking bruja_4
+      213: 3744400233205403645
+    second: Pixilart_Sprite_Sheet_4
+  - first:
+      213: 8198332980966065097
+    second: Pixilart_Sprite_Sheet_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -57,10 +60,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 14
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -114,106 +117,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: walking bruja_0
+      name: Pixilart_Sprite_Sheet_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 27
-        width: 37
-        height: 71
+        x: 19
+        y: 25
+        width: 40
+        height: 75
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2eb0355fc83e3f980800000000000000
-      internalID: -8506205076621947934
+      spriteID: be98f1da23e25c560800000000000000
+      internalID: 7333318363430488555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking bruja_1
+      name: Pixilart_Sprite_Sheet_1
       rect:
         serializedVersion: 2
-        x: 62
-        y: 27
-        width: 37
-        height: 71
+        x: 538
+        y: 25
+        width: 40
+        height: 73
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46491ebf6ec553040800000000000000
-      internalID: 4626706339331150948
+      spriteID: db15be80b9b47f000800000000000000
+      internalID: 69607448489185725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking bruja_2
+      name: Pixilart_Sprite_Sheet_2
       rect:
         serializedVersion: 2
-        x: 106
-        y: 27
-        width: 37
-        height: 71
+        x: 1058
+        y: 26
+        width: 41
+        height: 75
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3dc4387bf554da50800000000000000
-      internalID: 6544950697018051899
+      spriteID: fe0efdac04253f450800000000000000
+      internalID: 6121326756761690351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking bruja_3
+      name: Pixilart_Sprite_Sheet_3
       rect:
         serializedVersion: 2
-        x: 147
-        y: 27
-        width: 37
-        height: 71
+        x: 1576
+        y: 28
+        width: 40
+        height: 73
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3bebebc2b0550a00800000000000000
-      internalID: 722072044118469435
+      spriteID: c5b49a0e324a2e6c0800000000000000
+      internalID: -4115546635463210148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking bruja_4
+      name: Pixilart_Sprite_Sheet_4
       rect:
         serializedVersion: 2
-        x: 190
-        y: 27
-        width: 37
-        height: 71
+        x: 2093
+        y: 28
+        width: 41
+        height: 73
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 133b5985fdb7fb7e0800000000000000
-      internalID: -1747541931202333903
+      spriteID: dff09156c28c6f330800000000000000
+      internalID: 3744400233205403645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixilart_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 28
+        width: 41
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c30ad8d86456c170800000000000000
+      internalID: 8198332980966065097
       vertices: []
       indices: 
       edges: []
