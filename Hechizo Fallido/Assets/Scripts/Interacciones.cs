@@ -29,5 +29,6 @@ public class Interacciones : MonoBehaviour
             this.spriteRenderer.enabled = false;
             
         }
+
     
 }
